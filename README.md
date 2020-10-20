@@ -32,3 +32,8 @@ $ make
 ## how to debug
 
 $ make debug
+
+## image
+
+![the board](stair.jpg)
+
