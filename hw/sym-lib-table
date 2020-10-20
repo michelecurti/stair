@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name stair-rescue)(type Legacy)(uri ${KIPRJMOD}/stair-rescue.lib)(options "")(descr ""))
+)

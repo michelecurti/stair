@@ -1,0 +1,2471 @@
+EESchema Schematic File Version 4
+LIBS:stair-cache
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title "Luci scale Drano - 17 scalini PWM"
+Date "2019-12-22"
+Rev "1.0.0"
+Comp "MC"
+Comment1 "Scheda con alloggiamento per Arduino Uno R3"
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L stair-rescue:IRF540N Q7
+U 1 1 5DF35988
+P 4600 1150
+F 0 "Q7" H 4850 1225 50  0000 L CNN
+F 1 "IRF540N" H 4850 1150 50  0000 L CNN
+F 2 "TO_SOT_Packages_THT:TO-220-3_Vertical" H 4850 1075 50  0001 L CIN
+F 3 "" H 4600 1150 50  0001 L CNN
+	1    4600 1150
+	1    0    0    -1  
+$EndComp
+$Comp
+L stair-rescue:R R7
+U 1 1 5DF35A55
+P 4150 1150
+F 0 "R7" V 4230 1150 50  0000 C CNN
+F 1 "R" V 4150 1150 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal" V 4080 1150 50  0001 C CNN
+F 3 "" H 4150 1150 50  0001 C CNN
+	1    4150 1150
+	0    1    1    0   
+$EndComp
+$Comp
+L stair-rescue:Screw_Terminal_01x02 J12
+U 1 1 5DF35EBF
+P 5300 700
+F 0 "J12" H 5300 800 50  0000 C CNN
+F 1 "P3" H 5300 500 50  0000 C CNN
+F 2 "Connectors_Terminal_Blocks:TerminalBlock_bornier-2_P5.08mm" H 5300 700 50  0001 C CNN
+F 3 "" H 5300 700 50  0001 C CNN
+	1    5300 700 
+	0    -1   -1   0   
+$EndComp
+$Comp
+L stair-rescue:Screw_Terminal_01x02 J9
+U 1 1 5DF35AA2
+P 4700 700
+F 0 "J9" H 4700 800 50  0000 C CNN
+F 1 "M7" H 4700 500 50  0000 C CNN
+F 2 "Connectors_Terminal_Blocks:TerminalBlock_bornier-2_P5.08mm" H 4700 700 50  0001 C CNN
+F 3 "" H 4700 700 50  0001 C CNN
+	1    4700 700 
+	0    -1   -1   0   
+$EndComp
+$Comp
+L stair-rescue:IRF540N Q8
+U 1 1 5DF37EE0
+P 4600 2050
+F 0 "Q8" H 4850 2125 50  0000 L CNN
+F 1 "IRF540N" H 4850 2050 50  0000 L CNN
+F 2 "TO_SOT_Packages_THT:TO-220-3_Vertical" H 4850 1975 50  0001 L CIN
+F 3 "" H 4600 2050 50  0001 L CNN
+	1    4600 2050
+	1    0    0    -1  
+$EndComp
+$Comp
+L stair-rescue:R R8
+U 1 1 5DF37EE6
+P 4150 2050
+F 0 "R8" V 4230 2050 50  0000 C CNN
+F 1 "R" V 4150 2050 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal" V 4080 2050 50  0001 C CNN
+F 3 "" H 4150 2050 50  0001 C CNN
+	1    4150 2050
+	0    1    1    0   
+$EndComp
+$Comp
+L stair-rescue:Screw_Terminal_01x02 J10
+U 1 1 5DF37EEE
+P 4700 1600
+F 0 "J10" H 4700 1700 50  0000 C CNN
+F 1 "M8" H 4700 1400 50  0000 C CNN
+F 2 "Connectors_Terminal_Blocks:TerminalBlock_bornier-2_P5.08mm" H 4700 1600 50  0001 C CNN
+F 3 "" H 4700 1600 50  0001 C CNN
+	1    4700 1600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L stair-rescue:IRF540N Q9
+U 1 1 5DF380B0
+P 4600 2950
+F 0 "Q9" H 4850 3025 50  0000 L CNN
+F 1 "IRF540N" H 4850 2950 50  0000 L CNN
+F 2 "TO_SOT_Packages_THT:TO-220-3_Vertical" H 4850 2875 50  0001 L CIN
+F 3 "" H 4600 2950 50  0001 L CNN
+	1    4600 2950
+	1    0    0    -1  
+$EndComp
+$Comp
+L stair-rescue:R R9
+U 1 1 5DF380B6
+P 4150 2950
+F 0 "R9" V 4230 2950 50  0000 C CNN
+F 1 "R" V 4150 2950 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal" V 4080 2950 50  0001 C CNN
+F 3 "" H 4150 2950 50  0001 C CNN
+	1    4150 2950
+	0    1    1    0   
+$EndComp
+$Comp
+L stair-rescue:Screw_Terminal_01x02 J11
+U 1 1 5DF380BE
+P 4700 2500
+F 0 "J11" H 4700 2600 50  0000 C CNN
+F 1 "M9" H 4700 2300 50  0000 C CNN
+F 2 "Connectors_Terminal_Blocks:TerminalBlock_bornier-2_P5.08mm" H 4700 2500 50  0001 C CNN
+F 3 "" H 4700 2500 50  0001 C CNN
+	1    4700 2500
+	0    -1   -1   0   
+$EndComp
+$Comp
+L stair-rescue:GND #PWR01
+U 1 1 5DF387C6
+P 4700 1350
+F 0 "#PWR01" H 4700 1100 50  0001 C CNN
+F 1 "GND" H 4700 1200 50  0000 C CNN
+F 2 "" H 4700 1350 50  0001 C CNN
+F 3 "" H 4700 1350 50  0001 C CNN
+	1    4700 1350
+	1    0    0    -1  
+$EndComp
+$Comp
+L stair-rescue:GND #PWR02
+U 1 1 5DF38878
+P 4700 2250
+F 0 "#PWR02" H 4700 2000 50  0001 C CNN
+F 1 "GND" H 4700 2100 50  0000 C CNN
+F 2 "" H 4700 2250 50  0001 C CNN
+F 3 "" H 4700 2250 50  0001 C CNN
+	1    4700 2250
+	1    0    0    -1  
+$EndComp
+$Comp
+L stair-rescue:GND #PWR03
+U 1 1 5DF38B1D
+P 4700 3150
+F 0 "#PWR03" H 4700 2900 50  0001 C CNN
+F 1 "GND" H 4700 3000 50  0000 C CNN
+F 2 "" H 4700 3150 50  0001 C CNN
+F 3 "" H 4700 3150 50  0001 C CNN
+	1    4700 3150
+	1    0    0    -1  
+$EndComp
+$Comp
+L stair-rescue:IRF540N Q10
+U 1 1 5DF39B6E
+P 6300 1150
+F 0 "Q10" H 6550 1225 50  0000 L CNN
+F 1 "IRF540N" H 6550 1150 50  0000 L CNN
+F 2 "TO_SOT_Packages_THT:TO-220-3_Vertical" H 6550 1075 50  0001 L CIN
+F 3 "" H 6300 1150 50  0001 L CNN
+	1    6300 1150
+	1    0    0    -1  
+$EndComp
+$Comp
+L stair-rescue:R R10
+U 1 1 5DF39B74
+P 5850 1150
+F 0 "R10" V 5930 1150 50  0000 C CNN
+F 1 "R" V 5850 1150 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal" V 5780 1150 50  0001 C CNN
+F 3 "" H 5850 1150 50  0001 C CNN
+	1    5850 1150
+	0    1    1    0   
+$EndComp
+$Comp
+L stair-rescue:Screw_Terminal_01x02 J16
+U 1 1 5DF39B7C
+P 7000 700
+F 0 "J16" H 7000 800 50  0000 C CNN
+F 1 "P4" H 7000 500 50  0000 C CNN
+F 2 "Connectors_Terminal_Blocks:TerminalBlock_bornier-2_P5.08mm" H 7000 700 50  0001 C CNN
+F 3 "" H 7000 700 50  0001 C CNN
+	1    7000 700 
+	0    -1   -1   0   
+$EndComp
+$Comp
+L stair-rescue:Screw_Terminal_01x02 J13
+U 1 1 5DF39B82
+P 6400 700
+F 0 "J13" H 6400 800 50  0000 C CNN
+F 1 "M10" H 6400 500 50  0000 C CNN
+F 2 "Connectors_Terminal_Blocks:TerminalBlock_bornier-2_P5.08mm" H 6400 700 50  0001 C CNN
+F 3 "" H 6400 700 50  0001 C CNN
+	1    6400 700 
+	0    -1   -1   0   
+$EndComp
+$Comp
+L stair-rescue:IRF540N Q11
+U 1 1 5DF39B88
+P 6300 2050
+F 0 "Q11" H 6550 2125 50  0000 L CNN
+F 1 "IRF540N" H 6550 2050 50  0000 L CNN
+F 2 "TO_SOT_Packages_THT:TO-220-3_Vertical" H 6550 1975 50  0001 L CIN
+F 3 "" H 6300 2050 50  0001 L CNN
+	1    6300 2050
+	1    0    0    -1  
+$EndComp
+$Comp
+L stair-rescue:R R11
+U 1 1 5DF39B8E
+P 5850 2050
+F 0 "R11" V 5930 2050 50  0000 C CNN
+F 1 "R" V 5850 2050 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal" V 5780 2050 50  0001 C CNN
+F 3 "" H 5850 2050 50  0001 C CNN
+	1    5850 2050
+	0    1    1    0   
+$EndComp
+$Comp
+L stair-rescue:Screw_Terminal_01x02 J14
+U 1 1 5DF39B96
+P 6400 1600
+F 0 "J14" H 6400 1700 50  0000 C CNN
+F 1 "M11" H 6400 1400 50  0000 C CNN
+F 2 "Connectors_Terminal_Blocks:TerminalBlock_bornier-2_P5.08mm" H 6400 1600 50  0001 C CNN
+F 3 "" H 6400 1600 50  0001 C CNN
+	1    6400 1600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L stair-rescue:IRF540N Q12
+U 1 1 5DF39B9C
+P 6300 2950
+F 0 "Q12" H 6550 3025 50  0000 L CNN
+F 1 "IRF540N" H 6550 2950 50  0000 L CNN
+F 2 "TO_SOT_Packages_THT:TO-220-3_Vertical" H 6550 2875 50  0001 L CIN
+F 3 "" H 6300 2950 50  0001 L CNN
+	1    6300 2950
+	1    0    0    -1  
+$EndComp
+$Comp
+L stair-rescue:R R12
+U 1 1 5DF39BA2
+P 5850 2950
+F 0 "R12" V 5930 2950 50  0000 C CNN
+F 1 "R" V 5850 2950 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal" V 5780 2950 50  0001 C CNN
+F 3 "" H 5850 2950 50  0001 C CNN
+	1    5850 2950
+	0    1    1    0   
+$EndComp
+$Comp
+L stair-rescue:Screw_Terminal_01x02 J15
+U 1 1 5DF39BAA
+P 6400 2500
+F 0 "J15" H 6400 2600 50  0000 C CNN
+F 1 "M12" H 6400 2300 50  0000 C CNN
+F 2 "Connectors_Terminal_Blocks:TerminalBlock_bornier-2_P5.08mm" H 6400 2500 50  0001 C CNN
+F 3 "" H 6400 2500 50  0001 C CNN
+	1    6400 2500
+	0    -1   -1   0   
+$EndComp
+$Comp
+L stair-rescue:GND #PWR04
+U 1 1 5DF39BB0
+P 6400 1350
+F 0 "#PWR04" H 6400 1100 50  0001 C CNN
+F 1 "GND" H 6400 1200 50  0000 C CNN
+F 2 "" H 6400 1350 50  0001 C CNN
+F 3 "" H 6400 1350 50  0001 C CNN
+	1    6400 1350
+	1    0    0    -1  
+$EndComp
+$Comp
+L stair-rescue:GND #PWR05
+U 1 1 5DF39BB6
+P 6400 2250
+F 0 "#PWR05" H 6400 2000 50  0001 C CNN
+F 1 "GND" H 6400 2100 50  0000 C CNN
+F 2 "" H 6400 2250 50  0001 C CNN
+F 3 "" H 6400 2250 50  0001 C CNN
+	1    6400 2250
+	1    0    0    -1  
+$EndComp
+$Comp
+L stair-rescue:GND #PWR06
+U 1 1 5DF39BC9
+P 6400 3150
+F 0 "#PWR06" H 6400 2900 50  0001 C CNN
+F 1 "GND" H 6400 3000 50  0000 C CNN
+F 2 "" H 6400 3150 50  0001 C CNN
+F 3 "" H 6400 3150 50  0001 C CNN
+	1    6400 3150
+	1    0    0    -1  
+$EndComp
+$Comp
+L stair-rescue:IRF540N Q1
+U 1 1 5DF3A273
+P 1250 1150
+F 0 "Q1" H 1500 1225 50  0000 L CNN
+F 1 "IRF540N" H 1500 1150 50  0000 L CNN
+F 2 "TO_SOT_Packages_THT:TO-220-3_Vertical" H 1500 1075 50  0001 L CIN
+F 3 "" H 1250 1150 50  0001 L CNN
+	1    1250 1150
+	1    0    0    -1  
+$EndComp
+$Comp
+L stair-rescue:R R1
+U 1 1 5DF3A279
+P 800 1150
+F 0 "R1" V 880 1150 50  0000 C CNN
+F 1 "R" V 800 1150 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal" V 730 1150 50  0001 C CNN
+F 3 "" H 800 1150 50  0001 C CNN
+	1    800  1150
+	0    1    1    0   
+$EndComp
+$Comp
+L stair-rescue:Screw_Terminal_01x02 J4
+U 1 1 5DF3A281
+P 1950 700
+F 0 "J4" H 1950 800 50  0000 C CNN
+F 1 "P1" H 1950 500 50  0000 C CNN
+F 2 "Connectors_Terminal_Blocks:TerminalBlock_bornier-2_P5.08mm" H 1950 700 50  0001 C CNN
+F 3 "" H 1950 700 50  0001 C CNN
+	1    1950 700 
+	0    -1   -1   0   
+$EndComp
+$Comp
+L stair-rescue:Screw_Terminal_01x02 J1
+U 1 1 5DF3A287
+P 1350 700
+F 0 "J1" H 1350 800 50  0000 C CNN
+F 1 "M1" H 1350 500 50  0000 C CNN
+F 2 "Connectors_Terminal_Blocks:TerminalBlock_bornier-2_P5.08mm" H 1350 700 50  0001 C CNN
+F 3 "" H 1350 700 50  0001 C CNN
+	1    1350 700 
+	0    -1   -1   0   
+$EndComp
+$Comp
+L stair-rescue:IRF540N Q2
+U 1 1 5DF3A28D
+P 1250 2050
+F 0 "Q2" H 1500 2125 50  0000 L CNN
+F 1 "IRF540N" H 1500 2050 50  0000 L CNN
+F 2 "TO_SOT_Packages_THT:TO-220-3_Vertical" H 1500 1975 50  0001 L CIN
+F 3 "" H 1250 2050 50  0001 L CNN
+	1    1250 2050
+	1    0    0    -1  
+$EndComp
+$Comp
+L stair-rescue:R R2
+U 1 1 5DF3A293
+P 800 2050
+F 0 "R2" V 880 2050 50  0000 C CNN
+F 1 "R" V 800 2050 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal" V 730 2050 50  0001 C CNN
+F 3 "" H 800 2050 50  0001 C CNN
+	1    800  2050
+	0    1    1    0   
+$EndComp
+$Comp
+L stair-rescue:Screw_Terminal_01x02 J2
+U 1 1 5DF3A29B
+P 1350 1600
+F 0 "J2" H 1350 1700 50  0000 C CNN
+F 1 "M2" H 1350 1400 50  0000 C CNN
+F 2 "Connectors_Terminal_Blocks:TerminalBlock_bornier-2_P5.08mm" H 1350 1600 50  0001 C CNN
+F 3 "" H 1350 1600 50  0001 C CNN
+	1    1350 1600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L stair-rescue:R R3
+U 1 1 5DF3A2A7
+P 800 2950
+F 0 "R3" V 880 2950 50  0000 C CNN
+F 1 "R" V 800 2950 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal" V 730 2950 50  0001 C CNN
+F 3 "" H 800 2950 50  0001 C CNN
+	1    800  2950
+	0    1    1    0   
+$EndComp
+$Comp
+L stair-rescue:Screw_Terminal_01x02 J3
+U 1 1 5DF3A2AF
+P 1350 2500
+F 0 "J3" H 1350 2600 50  0000 C CNN
+F 1 "M3" H 1350 2300 50  0000 C CNN
+F 2 "Connectors_Terminal_Blocks:TerminalBlock_bornier-2_P5.08mm" H 1350 2500 50  0001 C CNN
+F 3 "" H 1350 2500 50  0001 C CNN
+	1    1350 2500
+	0    -1   -1   0   
+$EndComp
+$Comp
+L stair-rescue:GND #PWR07
+U 1 1 5DF3A2B5
+P 1350 1350
+F 0 "#PWR07" H 1350 1100 50  0001 C CNN
+F 1 "GND" H 1350 1200 50  0000 C CNN
+F 2 "" H 1350 1350 50  0001 C CNN
+F 3 "" H 1350 1350 50  0001 C CNN
+	1    1350 1350
+	1    0    0    -1  
+$EndComp
+$Comp
+L stair-rescue:GND #PWR08
+U 1 1 5DF3A2BB
+P 1350 2250
+F 0 "#PWR08" H 1350 2000 50  0001 C CNN
+F 1 "GND" H 1350 2100 50  0000 C CNN
+F 2 "" H 1350 2250 50  0001 C CNN
+F 3 "" H 1350 2250 50  0001 C CNN
+	1    1350 2250
+	1    0    0    -1  
+$EndComp
+$Comp
+L stair-rescue:GND #PWR09
+U 1 1 5DF3A2CE
+P 1350 3150
+F 0 "#PWR09" H 1350 2900 50  0001 C CNN
+F 1 "GND" H 1350 3000 50  0000 C CNN
+F 2 "" H 1350 3150 50  0001 C CNN
+F 3 "" H 1350 3150 50  0001 C CNN
+	1    1350 3150
+	1    0    0    -1  
+$EndComp
+$Comp
+L stair-rescue:IRF540N Q4
+U 1 1 5DF3A2D4
+P 2950 1150
+F 0 "Q4" H 3200 1225 50  0000 L CNN
+F 1 "IRF540N" H 3200 1150 50  0000 L CNN
+F 2 "TO_SOT_Packages_THT:TO-220-3_Vertical" H 3200 1075 50  0001 L CIN
+F 3 "" H 2950 1150 50  0001 L CNN
+	1    2950 1150
+	1    0    0    -1  
+$EndComp
+$Comp
+L stair-rescue:R R4
+U 1 1 5DF3A2DA
+P 2500 1150
+F 0 "R4" V 2580 1150 50  0000 C CNN
+F 1 "R" V 2500 1150 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal" V 2430 1150 50  0001 C CNN
+F 3 "" H 2500 1150 50  0001 C CNN
+	1    2500 1150
+	0    1    1    0   
+$EndComp
+$Comp
+L stair-rescue:Screw_Terminal_01x02 J8
+U 1 1 5DF3A2E2
+P 3650 700
+F 0 "J8" H 3650 800 50  0000 C CNN
+F 1 "P2" H 3650 500 50  0000 C CNN
+F 2 "Connectors_Terminal_Blocks:TerminalBlock_bornier-2_P5.08mm" H 3650 700 50  0001 C CNN
+F 3 "" H 3650 700 50  0001 C CNN
+	1    3650 700 
+	0    -1   -1   0   
+$EndComp
+$Comp
+L stair-rescue:Screw_Terminal_01x02 J5
+U 1 1 5DF3A2E8
+P 3050 700
+F 0 "J5" H 3050 800 50  0000 C CNN
+F 1 "M4" H 3050 500 50  0000 C CNN
+F 2 "Connectors_Terminal_Blocks:TerminalBlock_bornier-2_P5.08mm" H 3050 700 50  0001 C CNN
+F 3 "" H 3050 700 50  0001 C CNN
+	1    3050 700 
+	0    -1   -1   0   
+$EndComp
+$Comp
+L stair-rescue:IRF540N Q5
+U 1 1 5DF3A2EE
+P 2950 2050
+F 0 "Q5" H 3200 2125 50  0000 L CNN
+F 1 "IRF540N" H 3200 2050 50  0000 L CNN
+F 2 "TO_SOT_Packages_THT:TO-220-3_Vertical" H 3200 1975 50  0001 L CIN
+F 3 "" H 2950 2050 50  0001 L CNN
+	1    2950 2050
+	1    0    0    -1  
+$EndComp
+$Comp
+L stair-rescue:R R5
+U 1 1 5DF3A2F4
+P 2500 2050
+F 0 "R5" V 2580 2050 50  0000 C CNN
+F 1 "R" V 2500 2050 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal" V 2430 2050 50  0001 C CNN
+F 3 "" H 2500 2050 50  0001 C CNN
+	1    2500 2050
+	0    1    1    0   
+$EndComp
+$Comp
+L stair-rescue:Screw_Terminal_01x02 J6
+U 1 1 5DF3A2FC
+P 3050 1600
+F 0 "J6" H 3050 1700 50  0000 C CNN
+F 1 "M5" H 3050 1400 50  0000 C CNN
+F 2 "Connectors_Terminal_Blocks:TerminalBlock_bornier-2_P5.08mm" H 3050 1600 50  0001 C CNN
+F 3 "" H 3050 1600 50  0001 C CNN
+	1    3050 1600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L stair-rescue:IRF540N Q6
+U 1 1 5DF3A302
+P 2950 2950
+F 0 "Q6" H 3200 3025 50  0000 L CNN
+F 1 "IRF540N" H 3200 2950 50  0000 L CNN
+F 2 "TO_SOT_Packages_THT:TO-220-3_Vertical" H 3200 2875 50  0001 L CIN
+F 3 "" H 2950 2950 50  0001 L CNN
+	1    2950 2950
+	1    0    0    -1  
+$EndComp
+$Comp
+L stair-rescue:R R6
+U 1 1 5DF3A308
+P 2500 2950
+F 0 "R6" V 2580 2950 50  0000 C CNN
+F 1 "R" V 2500 2950 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal" V 2430 2950 50  0001 C CNN
+F 3 "" H 2500 2950 50  0001 C CNN
+	1    2500 2950
+	0    1    1    0   
+$EndComp
+$Comp
+L stair-rescue:Screw_Terminal_01x02 J7
+U 1 1 5DF3A310
+P 3050 2500
+F 0 "J7" H 3050 2600 50  0000 C CNN
+F 1 "M6" H 3050 2300 50  0000 C CNN
+F 2 "Connectors_Terminal_Blocks:TerminalBlock_bornier-2_P5.08mm" H 3050 2500 50  0001 C CNN
+F 3 "" H 3050 2500 50  0001 C CNN
+	1    3050 2500
+	0    -1   -1   0   
+$EndComp
+$Comp
+L stair-rescue:GND #PWR010
+U 1 1 5DF3A316
+P 3050 1350
+F 0 "#PWR010" H 3050 1100 50  0001 C CNN
+F 1 "GND" H 3050 1200 50  0000 C CNN
+F 2 "" H 3050 1350 50  0001 C CNN
+F 3 "" H 3050 1350 50  0001 C CNN
+	1    3050 1350
+	1    0    0    -1  
+$EndComp
+$Comp
+L stair-rescue:GND #PWR011
+U 1 1 5DF3A31C
+P 3050 2250
+F 0 "#PWR011" H 3050 2000 50  0001 C CNN
+F 1 "GND" H 3050 2100 50  0000 C CNN
+F 2 "" H 3050 2250 50  0001 C CNN
+F 3 "" H 3050 2250 50  0001 C CNN
+	1    3050 2250
+	1    0    0    -1  
+$EndComp
+$Comp
+L stair-rescue:GND #PWR012
+U 1 1 5DF3A32F
+P 3050 3150
+F 0 "#PWR012" H 3050 2900 50  0001 C CNN
+F 1 "GND" H 3050 3000 50  0000 C CNN
+F 2 "" H 3050 3150 50  0001 C CNN
+F 3 "" H 3050 3150 50  0001 C CNN
+	1    3050 3150
+	1    0    0    -1  
+$EndComp
+$Comp
+L stair-rescue:IRF540N Q13
+U 1 1 5DF3BC99
+P 8050 1150
+F 0 "Q13" H 8300 1225 50  0000 L CNN
+F 1 "IRF540N" H 8300 1150 50  0000 L CNN
+F 2 "TO_SOT_Packages_THT:TO-220-3_Vertical" H 8300 1075 50  0001 L CIN
+F 3 "" H 8050 1150 50  0001 L CNN
+	1    8050 1150
+	1    0    0    -1  
+$EndComp
+$Comp
+L stair-rescue:R R13
+U 1 1 5DF3BC9F
+P 7600 1150
+F 0 "R13" V 7680 1150 50  0000 C CNN
+F 1 "R" V 7600 1150 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal" V 7530 1150 50  0001 C CNN
+F 3 "" H 7600 1150 50  0001 C CNN
+	1    7600 1150
+	0    1    1    0   
+$EndComp
+$Comp
+L stair-rescue:Screw_Terminal_01x02 J20
+U 1 1 5DF3BCA7
+P 8750 700
+F 0 "J20" H 8750 800 50  0000 C CNN
+F 1 "P5" H 8750 500 50  0000 C CNN
+F 2 "Connectors_Terminal_Blocks:TerminalBlock_bornier-2_P5.08mm" H 8750 700 50  0001 C CNN
+F 3 "" H 8750 700 50  0001 C CNN
+	1    8750 700 
+	0    -1   -1   0   
+$EndComp
+$Comp
+L stair-rescue:Screw_Terminal_01x02 J17
+U 1 1 5DF3BCAD
+P 8150 700
+F 0 "J17" H 8150 800 50  0000 C CNN
+F 1 "M3" H 8150 500 50  0000 C CNN
+F 2 "Connectors_Terminal_Blocks:TerminalBlock_bornier-2_P5.08mm" H 8150 700 50  0001 C CNN
+F 3 "" H 8150 700 50  0001 C CNN
+	1    8150 700 
+	0    -1   -1   0   
+$EndComp
+$Comp
+L stair-rescue:IRF540N Q14
+U 1 1 5DF3BCB3
+P 8050 2050
+F 0 "Q14" H 8300 2125 50  0000 L CNN
+F 1 "IRF540N" H 8300 2050 50  0000 L CNN
+F 2 "TO_SOT_Packages_THT:TO-220-3_Vertical" H 8300 1975 50  0001 L CIN
+F 3 "" H 8050 2050 50  0001 L CNN
+	1    8050 2050
+	1    0    0    -1  
+$EndComp
+$Comp
+L stair-rescue:R R14
+U 1 1 5DF3BCB9
+P 7600 2050
+F 0 "R14" V 7680 2050 50  0000 C CNN
+F 1 "R" V 7600 2050 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal" V 7530 2050 50  0001 C CNN
+F 3 "" H 7600 2050 50  0001 C CNN
+	1    7600 2050
+	0    1    1    0   
+$EndComp
+$Comp
+L stair-rescue:Screw_Terminal_01x02 J18
+U 1 1 5DF3BCC1
+P 8150 1600
+F 0 "J18" H 8150 1700 50  0000 C CNN
+F 1 "M14" H 8150 1400 50  0000 C CNN
+F 2 "Connectors_Terminal_Blocks:TerminalBlock_bornier-2_P5.08mm" H 8150 1600 50  0001 C CNN
+F 3 "" H 8150 1600 50  0001 C CNN
+	1    8150 1600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L stair-rescue:IRF540N Q15
+U 1 1 5DF3BCC7
+P 8050 2950
+F 0 "Q15" H 8300 3025 50  0000 L CNN
+F 1 "IRF540N" H 8300 2950 50  0000 L CNN
+F 2 "TO_SOT_Packages_THT:TO-220-3_Vertical" H 8300 2875 50  0001 L CIN
+F 3 "" H 8050 2950 50  0001 L CNN
+	1    8050 2950
+	1    0    0    -1  
+$EndComp
+$Comp
+L stair-rescue:R R15
+U 1 1 5DF3BCCD
+P 7600 2950
+F 0 "R15" V 7680 2950 50  0000 C CNN
+F 1 "R" V 7600 2950 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal" V 7530 2950 50  0001 C CNN
+F 3 "" H 7600 2950 50  0001 C CNN
+	1    7600 2950
+	0    1    1    0   
+$EndComp
+$Comp
+L stair-rescue:Screw_Terminal_01x02 J19
+U 1 1 5DF3BCD5
+P 8150 2500
+F 0 "J19" H 8150 2600 50  0000 C CNN
+F 1 "M15" H 8150 2300 50  0000 C CNN
+F 2 "Connectors_Terminal_Blocks:TerminalBlock_bornier-2_P5.08mm" H 8150 2500 50  0001 C CNN
+F 3 "" H 8150 2500 50  0001 C CNN
+	1    8150 2500
+	0    -1   -1   0   
+$EndComp
+$Comp
+L stair-rescue:GND #PWR013
+U 1 1 5DF3BCDB
+P 8150 1350
+F 0 "#PWR013" H 8150 1100 50  0001 C CNN
+F 1 "GND" H 8150 1200 50  0000 C CNN
+F 2 "" H 8150 1350 50  0001 C CNN
+F 3 "" H 8150 1350 50  0001 C CNN
+	1    8150 1350
+	1    0    0    -1  
+$EndComp
+$Comp
+L stair-rescue:GND #PWR014
+U 1 1 5DF3BCE1
+P 8150 2250
+F 0 "#PWR014" H 8150 2000 50  0001 C CNN
+F 1 "GND" H 8150 2100 50  0000 C CNN
+F 2 "" H 8150 2250 50  0001 C CNN
+F 3 "" H 8150 2250 50  0001 C CNN
+	1    8150 2250
+	1    0    0    -1  
+$EndComp
+$Comp
+L stair-rescue:GND #PWR015
+U 1 1 5DF3BCF4
+P 8150 3150
+F 0 "#PWR015" H 8150 2900 50  0001 C CNN
+F 1 "GND" H 8150 3000 50  0000 C CNN
+F 2 "" H 8150 3150 50  0001 C CNN
+F 3 "" H 8150 3150 50  0001 C CNN
+	1    8150 3150
+	1    0    0    -1  
+$EndComp
+$Comp
+L stair-rescue:IRF540N Q16
+U 1 1 5DF3BCFA
+P 9750 1150
+F 0 "Q16" H 10000 1225 50  0000 L CNN
+F 1 "IRF540N" H 10000 1150 50  0000 L CNN
+F 2 "TO_SOT_Packages_THT:TO-220-3_Vertical" H 10000 1075 50  0001 L CIN
+F 3 "" H 9750 1150 50  0001 L CNN
+	1    9750 1150
+	1    0    0    -1  
+$EndComp
+$Comp
+L stair-rescue:R R16
+U 1 1 5DF3BD00
+P 9300 1150
+F 0 "R16" V 9380 1150 50  0000 C CNN
+F 1 "R" V 9300 1150 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal" V 9230 1150 50  0001 C CNN
+F 3 "" H 9300 1150 50  0001 C CNN
+	1    9300 1150
+	0    1    1    0   
+$EndComp
+$Comp
+L stair-rescue:Screw_Terminal_01x02 J24
+U 1 1 5DF3BD08
+P 10450 700
+F 0 "J24" H 10450 800 50  0000 C CNN
+F 1 "P6" H 10450 500 50  0000 C CNN
+F 2 "Connectors_Terminal_Blocks:TerminalBlock_bornier-2_P5.08mm" H 10450 700 50  0001 C CNN
+F 3 "" H 10450 700 50  0001 C CNN
+	1    10450 700 
+	0    -1   -1   0   
+$EndComp
+$Comp
+L stair-rescue:Screw_Terminal_01x02 J21
+U 1 1 5DF3BD0E
+P 9850 700
+F 0 "J21" H 9850 800 50  0000 C CNN
+F 1 "M16" H 9850 500 50  0000 C CNN
+F 2 "Connectors_Terminal_Blocks:TerminalBlock_bornier-2_P5.08mm" H 9850 700 50  0001 C CNN
+F 3 "" H 9850 700 50  0001 C CNN
+	1    9850 700 
+	0    -1   -1   0   
+$EndComp
+$Comp
+L stair-rescue:IRF540N Q17
+U 1 1 5DF3BD14
+P 9750 2050
+F 0 "Q17" H 10000 2125 50  0000 L CNN
+F 1 "IRF540N" H 10000 2050 50  0000 L CNN
+F 2 "TO_SOT_Packages_THT:TO-220-3_Vertical" H 10000 1975 50  0001 L CIN
+F 3 "" H 9750 2050 50  0001 L CNN
+	1    9750 2050
+	1    0    0    -1  
+$EndComp
+$Comp
+L stair-rescue:R R17
+U 1 1 5DF3BD1A
+P 9300 2050
+F 0 "R17" V 9380 2050 50  0000 C CNN
+F 1 "R" V 9300 2050 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal" V 9230 2050 50  0001 C CNN
+F 3 "" H 9300 2050 50  0001 C CNN
+	1    9300 2050
+	0    1    1    0   
+$EndComp
+$Comp
+L stair-rescue:Screw_Terminal_01x02 J22
+U 1 1 5DF3BD22
+P 9850 1600
+F 0 "J22" H 9850 1700 50  0000 C CNN
+F 1 "M17" H 9850 1400 50  0000 C CNN
+F 2 "Connectors_Terminal_Blocks:TerminalBlock_bornier-2_P5.08mm" H 9850 1600 50  0001 C CNN
+F 3 "" H 9850 1600 50  0001 C CNN
+	1    9850 1600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L stair-rescue:GND #PWR016
+U 1 1 5DF3BD3C
+P 9850 1350
+F 0 "#PWR016" H 9850 1100 50  0001 C CNN
+F 1 "GND" H 9850 1200 50  0000 C CNN
+F 2 "" H 9850 1350 50  0001 C CNN
+F 3 "" H 9850 1350 50  0001 C CNN
+	1    9850 1350
+	1    0    0    -1  
+$EndComp
+$Comp
+L stair-rescue:GND #PWR017
+U 1 1 5DF3BD42
+P 9850 2250
+F 0 "#PWR017" H 9850 2000 50  0001 C CNN
+F 1 "GND" H 9850 2100 50  0000 C CNN
+F 2 "" H 9850 2250 50  0001 C CNN
+F 3 "" H 9850 2250 50  0001 C CNN
+	1    9850 2250
+	1    0    0    -1  
+$EndComp
+$Comp
+L stair-rescue:74HC595 U1
+U 1 1 5DF3E059
+P 2100 4250
+F 0 "U1" H 2250 4850 50  0000 C CNN
+F 1 "74HC595" H 2100 3650 50  0000 C CNN
+F 2 "Housings_DIP:DIP-16_W7.62mm" H 2100 4250 50  0001 C CNN
+F 3 "" H 2100 4250 50  0001 C CNN
+	1    2100 4250
+	1    0    0    -1  
+$EndComp
+$Comp
+L stair-rescue:74HC595 U2
+U 1 1 5DF3F049
+P 2100 5600
+F 0 "U2" H 2250 6200 50  0000 C CNN
+F 1 "74HC595" H 2100 5000 50  0000 C CNN
+F 2 "Housings_DIP:DIP-16_W7.62mm" H 2100 5600 50  0001 C CNN
+F 3 "" H 2100 5600 50  0001 C CNN
+	1    2100 5600
+	1    0    0    -1  
+$EndComp
+$Comp
+L stair-rescue:74HC595 U3
+U 1 1 5DF3F169
+P 2100 6950
+F 0 "U3" H 2250 7550 50  0000 C CNN
+F 1 "74HC595" H 2100 6350 50  0000 C CNN
+F 2 "Housings_DIP:DIP-16_W7.62mm" H 2100 6950 50  0001 C CNN
+F 3 "" H 2100 6950 50  0001 C CNN
+	1    2100 6950
+	1    0    0    -1  
+$EndComp
+Text GLabel 2800 4500 2    60   Input ~ 0
+LED1
+Text GLabel 2800 4400 2    60   Input ~ 0
+LED2
+Text GLabel 2800 4300 2    60   Input ~ 0
+LED3
+Text GLabel 2800 4200 2    60   Input ~ 0
+LED4
+Text GLabel 2800 4100 2    60   Input ~ 0
+LED5
+Text GLabel 2800 4000 2    60   Input ~ 0
+LED6
+Text GLabel 2800 5850 2    60   Input ~ 0
+LED7
+Text GLabel 2800 5750 2    60   Input ~ 0
+LED8
+Text GLabel 2800 5650 2    60   Input ~ 0
+LED9
+Text GLabel 2800 5450 2    60   Input ~ 0
+LED11
+Text GLabel 2800 5350 2    60   Input ~ 0
+LED12
+Text GLabel 2800 5550 2    60   Input ~ 0
+LED10
+Text GLabel 2800 7200 2    60   Input ~ 0
+LED13
+Text GLabel 2800 7100 2    60   Input ~ 0
+LED14
+Text GLabel 2800 7000 2    60   Input ~ 0
+LED15
+Text GLabel 2800 6900 2    60   Input ~ 0
+LED16
+Text GLabel 2800 6800 2    60   Input ~ 0
+LED17
+Text GLabel 650  1100 1    60   Input ~ 0
+LED1
+Text GLabel 650  2000 1    60   Input ~ 0
+LED2
+Text GLabel 650  2900 1    60   Input ~ 0
+LED3
+Text GLabel 2350 1100 1    60   Input ~ 0
+LED4
+Text GLabel 2350 2000 1    60   Input ~ 0
+LED5
+Text GLabel 2350 2900 1    60   Input ~ 0
+LED6
+Text GLabel 4000 1100 1    60   Input ~ 0
+LED7
+Text GLabel 4000 2000 1    60   Input ~ 0
+LED8
+Text GLabel 4000 2900 1    60   Input ~ 0
+LED9
+Text GLabel 5700 1100 1    60   Input ~ 0
+LED10
+Text GLabel 5700 2000 1    60   Input ~ 0
+LED11
+Text GLabel 5700 2900 1    60   Input ~ 0
+LED12
+Text GLabel 7450 1100 1    60   Input ~ 0
+LED13
+Text GLabel 7450 2000 1    60   Input ~ 0
+LED14
+Text GLabel 7450 2900 1    60   Input ~ 0
+LED15
+Text GLabel 9150 1100 1    60   Input ~ 0
+LED16
+Text GLabel 9150 2000 1    60   Input ~ 0
+LED17
+$Comp
+L stair-rescue:GND #PWR019
+U 1 1 5DF52389
+P 1400 4700
+F 0 "#PWR019" H 1400 4450 50  0001 C CNN
+F 1 "GND" H 1400 4550 50  0000 C CNN
+F 2 "" H 1400 4700 50  0001 C CNN
+F 3 "" H 1400 4700 50  0001 C CNN
+	1    1400 4700
+	1    0    0    -1  
+$EndComp
+$Comp
+L stair-rescue:GND #PWR020
+U 1 1 5DF52451
+P 1400 6050
+F 0 "#PWR020" H 1400 5800 50  0001 C CNN
+F 1 "GND" H 1400 5900 50  0000 C CNN
+F 2 "" H 1400 6050 50  0001 C CNN
+F 3 "" H 1400 6050 50  0001 C CNN
+	1    1400 6050
+	1    0    0    -1  
+$EndComp
+$Comp
+L stair-rescue:GND #PWR021
+U 1 1 5DF52519
+P 1400 7400
+F 0 "#PWR021" H 1400 7150 50  0001 C CNN
+F 1 "GND" H 1400 7250 50  0000 C CNN
+F 2 "" H 1400 7400 50  0001 C CNN
+F 3 "" H 1400 7400 50  0001 C CNN
+	1    1400 7400
+	1    0    0    -1  
+$EndComp
+Text GLabel 1400 3800 0    60   Input ~ 0
+MOSI
+$Comp
+L stair-rescue:+5V #PWR022
+U 1 1 5DF52A3A
+P 950 3800
+F 0 "#PWR022" H 950 3650 50  0001 C CNN
+F 1 "+5V" H 950 3940 50  0000 C CNN
+F 2 "" H 950 3800 50  0001 C CNN
+F 3 "" H 950 3800 50  0001 C CNN
+	1    950  3800
+	-1   0    0    -1  
+$EndComp
+$Comp
+L stair-rescue:+5V #PWR023
+U 1 1 5DF52ACC
+P 950 5150
+F 0 "#PWR023" H 950 5000 50  0001 C CNN
+F 1 "+5V" H 950 5290 50  0000 C CNN
+F 2 "" H 950 5150 50  0001 C CNN
+F 3 "" H 950 5150 50  0001 C CNN
+	1    950  5150
+	1    0    0    -1  
+$EndComp
+$Comp
+L stair-rescue:+5V #PWR024
+U 1 1 5DF52B5E
+P 950 6500
+F 0 "#PWR024" H 950 6350 50  0001 C CNN
+F 1 "+5V" H 950 6640 50  0000 C CNN
+F 2 "" H 950 6500 50  0001 C CNN
+F 3 "" H 950 6500 50  0001 C CNN
+	1    950  6500
+	1    0    0    -1  
+$EndComp
+Text GLabel 4150 6050 0    60   Input ~ 0
+CLK
+Text GLabel 4150 5950 0    60   Input ~ 0
+MOSI
+Text GLabel 4150 5650 0    60   Input ~ 0
+BTN1
+Text GLabel 4150 5750 0    60   Input ~ 0
+BTN2
+Text GLabel 4150 5450 0    60   Input ~ 0
+REL
+$Comp
+L stair-rescue:Q_NPN_BCE Q19
+U 1 1 5DF6ACF8
+P 10000 5800
+F 0 "Q19" H 10200 5850 50  0000 L CNN
+F 1 "Q_NPN_BCE" H 10200 5750 50  0000 L CNN
+F 2 "Package_TO_SOT_THT:TO-92_Wide" H 10200 5900 50  0001 C CNN
+F 3 "" H 10000 5800 50  0001 C CNN
+	1    10000 5800
+	1    0    0    -1  
+$EndComp
+$Comp
+L stair-rescue:GND #PWR027
+U 1 1 5DF6AE41
+P 10100 6200
+F 0 "#PWR027" H 10100 5950 50  0001 C CNN
+F 1 "GND" H 10100 6050 50  0000 C CNN
+F 2 "" H 10100 6200 50  0001 C CNN
+F 3 "" H 10100 6200 50  0001 C CNN
+	1    10100 6200
+	1    0    0    -1  
+$EndComp
+$Comp
+L stair-rescue:+5V #PWR028
+U 1 1 5DF6CCC1
+P 10100 4700
+F 0 "#PWR028" H 10100 4550 50  0001 C CNN
+F 1 "+5V" H 10100 4840 50  0000 C CNN
+F 2 "" H 10100 4700 50  0001 C CNN
+F 3 "" H 10100 4700 50  0001 C CNN
+	1    10100 4700
+	1    0    0    -1  
+$EndComp
+$Comp
+L stair-rescue:D D1
+U 1 1 5DF6D9FB
+P 9700 5100
+F 0 "D1" H 9700 5200 50  0000 C CNN
+F 1 "D" H 9700 5000 50  0000 C CNN
+F 2 "Diodes_THT:D_A-405_P7.62mm_Horizontal" H 9700 5100 50  0001 C CNN
+F 3 "" H 9700 5100 50  0001 C CNN
+	1    9700 5100
+	0    1    1    0   
+$EndComp
+$Comp
+L stair-rescue:R R19
+U 1 1 5DF6DF63
+P 9550 5800
+F 0 "R19" V 9630 5800 50  0000 C CNN
+F 1 "R" V 9550 5800 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal" V 9480 5800 50  0001 C CNN
+F 3 "" H 9550 5800 50  0001 C CNN
+	1    9550 5800
+	0    1    1    0   
+$EndComp
+Text GLabel 9300 5800 0    60   Input ~ 0
+REL
+$Comp
+L stair-rescue:Screw_Terminal_01x02 J27
+U 1 1 5DF6E87A
+P 10800 3750
+F 0 "J27" H 10800 3850 50  0000 C CNN
+F 1 "MB2" H 10800 3550 50  0000 C CNN
+F 2 "Connectors_Terminal_Blocks:TerminalBlock_bornier-2_P5.08mm" H 10800 3750 50  0001 C CNN
+F 3 "" H 10800 3750 50  0001 C CNN
+	1    10800 3750
+	1    0    0    -1  
+$EndComp
+$Comp
+L stair-rescue:R R22
+U 1 1 5DF74296
+P 10300 3750
+F 0 "R22" V 10380 3750 50  0000 C CNN
+F 1 "R" V 10300 3750 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal" V 10230 3750 50  0001 C CNN
+F 3 "" H 10300 3750 50  0001 C CNN
+	1    10300 3750
+	0    1    1    0   
+$EndComp
+$Comp
+L stair-rescue:R R20
+U 1 1 5DF74465
+P 9900 3750
+F 0 "R20" V 9980 3750 50  0000 C CNN
+F 1 "R" V 9900 3750 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal" V 9830 3750 50  0001 C CNN
+F 3 "" H 9900 3750 50  0001 C CNN
+	1    9900 3750
+	0    1    1    0   
+$EndComp
+$Comp
+L stair-rescue:C C1
+U 1 1 5DF74665
+P 10100 3950
+F 0 "C1" H 10125 4050 50  0000 L CNN
+F 1 "C" H 10125 3850 50  0000 L CNN
+F 2 "Capacitor_THT:CP_Radial_D5.0mm_P2.50mm" H 10138 3800 50  0001 C CNN
+F 3 "" H 10100 3950 50  0001 C CNN
+	1    10100 3950
+	1    0    0    -1  
+$EndComp
+$Comp
+L stair-rescue:GND #PWR029
+U 1 1 5DF74C3D
+P 10100 4200
+F 0 "#PWR029" H 10100 3950 50  0001 C CNN
+F 1 "GND" H 10100 4050 50  0000 C CNN
+F 2 "" H 10100 4200 50  0001 C CNN
+F 3 "" H 10100 4200 50  0001 C CNN
+	1    10100 4200
+	1    0    0    -1  
+$EndComp
+$Comp
+L stair-rescue:Screw_Terminal_01x02 J28
+U 1 1 5DF760BD
+P 10800 2900
+F 0 "J28" H 10800 3000 50  0000 C CNN
+F 1 "MB1" H 10800 2700 50  0000 C CNN
+F 2 "Connectors_Terminal_Blocks:TerminalBlock_bornier-2_P5.08mm" H 10800 2900 50  0001 C CNN
+F 3 "" H 10800 2900 50  0001 C CNN
+	1    10800 2900
+	1    0    0    -1  
+$EndComp
+$Comp
+L stair-rescue:R R23
+U 1 1 5DF760C3
+P 10300 2900
+F 0 "R23" V 10380 2900 50  0000 C CNN
+F 1 "R" V 10300 2900 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal" V 10230 2900 50  0001 C CNN
+F 3 "" H 10300 2900 50  0001 C CNN
+	1    10300 2900
+	0    1    1    0   
+$EndComp
+$Comp
+L stair-rescue:R R21
+U 1 1 5DF760C9
+P 9900 2900
+F 0 "R21" V 9980 2900 50  0000 C CNN
+F 1 "R" V 9900 2900 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal" V 9830 2900 50  0001 C CNN
+F 3 "" H 9900 2900 50  0001 C CNN
+	1    9900 2900
+	0    1    1    0   
+$EndComp
+$Comp
+L stair-rescue:C C2
+U 1 1 5DF760CF
+P 10100 3100
+F 0 "C2" H 10125 3200 50  0000 L CNN
+F 1 "C" H 10125 3000 50  0000 L CNN
+F 2 "Capacitor_THT:CP_Radial_D5.0mm_P2.50mm" H 10138 2950 50  0001 C CNN
+F 3 "" H 10100 3100 50  0001 C CNN
+	1    10100 3100
+	1    0    0    -1  
+$EndComp
+$Comp
+L stair-rescue:GND #PWR030
+U 1 1 5DF760D5
+P 10100 3350
+F 0 "#PWR030" H 10100 3100 50  0001 C CNN
+F 1 "GND" H 10100 3200 50  0000 C CNN
+F 2 "" H 10100 3350 50  0001 C CNN
+F 3 "" H 10100 3350 50  0001 C CNN
+	1    10100 3350
+	1    0    0    -1  
+$EndComp
+Text GLabel 9750 3750 0    60   Input ~ 0
+BTN1
+Text GLabel 9750 2900 0    60   Input ~ 0
+BTN2
+$Comp
+L stair-rescue:IRF540N Q3
+U 1 1 5DF3A2A1
+P 1250 2950
+F 0 "Q3" H 1500 3025 50  0000 L CNN
+F 1 "IRF540N" H 1500 2950 50  0000 L CNN
+F 2 "TO_SOT_Packages_THT:TO-220-3_Vertical" H 1500 2875 50  0001 L CIN
+F 3 "" H 1250 2950 50  0001 L CNN
+	1    1250 2950
+	1    0    0    -1  
+$EndComp
+$Comp
+L stair-rescue:R R24
+U 1 1 5DFA9EB2
+P 1000 1350
+F 0 "R24" V 1080 1350 50  0000 C CNN
+F 1 "R" V 1000 1350 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal" V 930 1350 50  0001 C CNN
+F 3 "" H 1000 1350 50  0001 C CNN
+	1    1000 1350
+	1    0    0    -1  
+$EndComp
+$Comp
+L stair-rescue:GND #PWR031
+U 1 1 5DFAA385
+P 1000 1500
+F 0 "#PWR031" H 1000 1250 50  0001 C CNN
+F 1 "GND" H 1000 1350 50  0000 C CNN
+F 2 "" H 1000 1500 50  0001 C CNN
+F 3 "" H 1000 1500 50  0001 C CNN
+	1    1000 1500
+	1    0    0    -1  
+$EndComp
+$Comp
+L stair-rescue:R R25
+U 1 1 5DFAB198
+P 1000 2250
+F 0 "R25" V 1080 2250 50  0000 C CNN
+F 1 "R" V 1000 2250 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal" V 930 2250 50  0001 C CNN
+F 3 "" H 1000 2250 50  0001 C CNN
+	1    1000 2250
+	1    0    0    -1  
+$EndComp
+$Comp
+L stair-rescue:GND #PWR032
+U 1 1 5DFAB19E
+P 1000 2400
+F 0 "#PWR032" H 1000 2150 50  0001 C CNN
+F 1 "GND" H 1000 2250 50  0000 C CNN
+F 2 "" H 1000 2400 50  0001 C CNN
+F 3 "" H 1000 2400 50  0001 C CNN
+	1    1000 2400
+	1    0    0    -1  
+$EndComp
+$Comp
+L stair-rescue:R R26
+U 1 1 5DFAB2D8
+P 1000 3150
+F 0 "R26" V 1080 3150 50  0000 C CNN
+F 1 "R" V 1000 3150 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal" V 930 3150 50  0001 C CNN
+F 3 "" H 1000 3150 50  0001 C CNN
+	1    1000 3150
+	1    0    0    -1  
+$EndComp
+$Comp
+L stair-rescue:GND #PWR033
+U 1 1 5DFAB2DE
+P 1000 3300
+F 0 "#PWR033" H 1000 3050 50  0001 C CNN
+F 1 "GND" H 1000 3150 50  0000 C CNN
+F 2 "" H 1000 3300 50  0001 C CNN
+F 3 "" H 1000 3300 50  0001 C CNN
+	1    1000 3300
+	1    0    0    -1  
+$EndComp
+$Comp
+L stair-rescue:R R29
+U 1 1 5DFAD001
+P 2700 3150
+F 0 "R29" V 2780 3150 50  0000 C CNN
+F 1 "R" V 2700 3150 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal" V 2630 3150 50  0001 C CNN
+F 3 "" H 2700 3150 50  0001 C CNN
+	1    2700 3150
+	1    0    0    -1  
+$EndComp
+$Comp
+L stair-rescue:GND #PWR034
+U 1 1 5DFAD007
+P 2700 3300
+F 0 "#PWR034" H 2700 3050 50  0001 C CNN
+F 1 "GND" H 2700 3150 50  0000 C CNN
+F 2 "" H 2700 3300 50  0001 C CNN
+F 3 "" H 2700 3300 50  0001 C CNN
+	1    2700 3300
+	1    0    0    -1  
+$EndComp
+$Comp
+L stair-rescue:R R28
+U 1 1 5DFAD0F8
+P 2700 2250
+F 0 "R28" V 2780 2250 50  0000 C CNN
+F 1 "R" V 2700 2250 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal" V 2630 2250 50  0001 C CNN
+F 3 "" H 2700 2250 50  0001 C CNN
+	1    2700 2250
+	1    0    0    -1  
+$EndComp
+$Comp
+L stair-rescue:GND #PWR035
+U 1 1 5DFAD0FE
+P 2700 2400
+F 0 "#PWR035" H 2700 2150 50  0001 C CNN
+F 1 "GND" H 2700 2250 50  0000 C CNN
+F 2 "" H 2700 2400 50  0001 C CNN
+F 3 "" H 2700 2400 50  0001 C CNN
+	1    2700 2400
+	1    0    0    -1  
+$EndComp
+$Comp
+L stair-rescue:R R27
+U 1 1 5DFAD1D9
+P 2700 1350
+F 0 "R27" V 2780 1350 50  0000 C CNN
+F 1 "R" V 2700 1350 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal" V 2630 1350 50  0001 C CNN
+F 3 "" H 2700 1350 50  0001 C CNN
+	1    2700 1350
+	1    0    0    -1  
+$EndComp
+$Comp
+L stair-rescue:GND #PWR036
+U 1 1 5DFAD1DF
+P 2700 1500
+F 0 "#PWR036" H 2700 1250 50  0001 C CNN
+F 1 "GND" H 2700 1350 50  0000 C CNN
+F 2 "" H 2700 1500 50  0001 C CNN
+F 3 "" H 2700 1500 50  0001 C CNN
+	1    2700 1500
+	1    0    0    -1  
+$EndComp
+$Comp
+L stair-rescue:R R31
+U 1 1 5DFAFB30
+P 4350 2250
+F 0 "R31" V 4430 2250 50  0000 C CNN
+F 1 "R" V 4350 2250 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal" V 4280 2250 50  0001 C CNN
+F 3 "" H 4350 2250 50  0001 C CNN
+	1    4350 2250
+	1    0    0    -1  
+$EndComp
+$Comp
+L stair-rescue:GND #PWR037
+U 1 1 5DFAFB36
+P 4350 2400
+F 0 "#PWR037" H 4350 2150 50  0001 C CNN
+F 1 "GND" H 4350 2250 50  0000 C CNN
+F 2 "" H 4350 2400 50  0001 C CNN
+F 3 "" H 4350 2400 50  0001 C CNN
+	1    4350 2400
+	1    0    0    -1  
+$EndComp
+$Comp
+L stair-rescue:R R32
+U 1 1 5DFA67BD
+P 4350 3150
+F 0 "R32" V 4430 3150 50  0000 C CNN
+F 1 "R" V 4350 3150 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal" V 4280 3150 50  0001 C CNN
+F 3 "" H 4350 3150 50  0001 C CNN
+	1    4350 3150
+	1    0    0    -1  
+$EndComp
+$Comp
+L stair-rescue:GND #PWR038
+U 1 1 5DFA67C3
+P 4350 3300
+F 0 "#PWR038" H 4350 3050 50  0001 C CNN
+F 1 "GND" H 4350 3150 50  0000 C CNN
+F 2 "" H 4350 3300 50  0001 C CNN
+F 3 "" H 4350 3300 50  0001 C CNN
+	1    4350 3300
+	1    0    0    -1  
+$EndComp
+$Comp
+L stair-rescue:R R35
+U 1 1 5DFA68C0
+P 6050 3150
+F 0 "R35" V 6130 3150 50  0000 C CNN
+F 1 "R" V 6050 3150 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal" V 5980 3150 50  0001 C CNN
+F 3 "" H 6050 3150 50  0001 C CNN
+	1    6050 3150
+	1    0    0    -1  
+$EndComp
+$Comp
+L stair-rescue:GND #PWR039
+U 1 1 5DFA68C6
+P 6050 3300
+F 0 "#PWR039" H 6050 3050 50  0001 C CNN
+F 1 "GND" H 6050 3150 50  0000 C CNN
+F 2 "" H 6050 3300 50  0001 C CNN
+F 3 "" H 6050 3300 50  0001 C CNN
+	1    6050 3300
+	1    0    0    -1  
+$EndComp
+$Comp
+L stair-rescue:R R34
+U 1 1 5DFA69E1
+P 6050 2250
+F 0 "R34" V 6130 2250 50  0000 C CNN
+F 1 "R" V 6050 2250 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal" V 5980 2250 50  0001 C CNN
+F 3 "" H 6050 2250 50  0001 C CNN
+	1    6050 2250
+	1    0    0    -1  
+$EndComp
+$Comp
+L stair-rescue:GND #PWR040
+U 1 1 5DFA69E7
+P 6050 2400
+F 0 "#PWR040" H 6050 2150 50  0001 C CNN
+F 1 "GND" H 6050 2250 50  0000 C CNN
+F 2 "" H 6050 2400 50  0001 C CNN
+F 3 "" H 6050 2400 50  0001 C CNN
+	1    6050 2400
+	1    0    0    -1  
+$EndComp
+$Comp
+L stair-rescue:R R33
+U 1 1 5DFA6ADE
+P 6050 1350
+F 0 "R33" V 6130 1350 50  0000 C CNN
+F 1 "R" V 6050 1350 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal" V 5980 1350 50  0001 C CNN
+F 3 "" H 6050 1350 50  0001 C CNN
+	1    6050 1350
+	1    0    0    -1  
+$EndComp
+$Comp
+L stair-rescue:GND #PWR041
+U 1 1 5DFA6AE4
+P 6050 1500
+F 0 "#PWR041" H 6050 1250 50  0001 C CNN
+F 1 "GND" H 6050 1350 50  0000 C CNN
+F 2 "" H 6050 1500 50  0001 C CNN
+F 3 "" H 6050 1500 50  0001 C CNN
+	1    6050 1500
+	1    0    0    -1  
+$EndComp
+$Comp
+L stair-rescue:R R36
+U 1 1 5DFA9B13
+P 7800 1350
+F 0 "R36" V 7880 1350 50  0000 C CNN
+F 1 "R" V 7800 1350 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal" V 7730 1350 50  0001 C CNN
+F 3 "" H 7800 1350 50  0001 C CNN
+	1    7800 1350
+	1    0    0    -1  
+$EndComp
+$Comp
+L stair-rescue:GND #PWR042
+U 1 1 5DFA9B19
+P 7800 1500
+F 0 "#PWR042" H 7800 1250 50  0001 C CNN
+F 1 "GND" H 7800 1350 50  0000 C CNN
+F 2 "" H 7800 1500 50  0001 C CNN
+F 3 "" H 7800 1500 50  0001 C CNN
+	1    7800 1500
+	1    0    0    -1  
+$EndComp
+$Comp
+L stair-rescue:R R37
+U 1 1 5DFA9C0C
+P 7800 2250
+F 0 "R37" V 7880 2250 50  0000 C CNN
+F 1 "R" V 7800 2250 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal" V 7730 2250 50  0001 C CNN
+F 3 "" H 7800 2250 50  0001 C CNN
+	1    7800 2250
+	1    0    0    -1  
+$EndComp
+$Comp
+L stair-rescue:GND #PWR043
+U 1 1 5DFA9C12
+P 7800 2400
+F 0 "#PWR043" H 7800 2150 50  0001 C CNN
+F 1 "GND" H 7800 2250 50  0000 C CNN
+F 2 "" H 7800 2400 50  0001 C CNN
+F 3 "" H 7800 2400 50  0001 C CNN
+	1    7800 2400
+	1    0    0    -1  
+$EndComp
+$Comp
+L stair-rescue:R R38
+U 1 1 5DFA9D07
+P 7800 3150
+F 0 "R38" V 7880 3150 50  0000 C CNN
+F 1 "R" V 7800 3150 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal" V 7730 3150 50  0001 C CNN
+F 3 "" H 7800 3150 50  0001 C CNN
+	1    7800 3150
+	1    0    0    -1  
+$EndComp
+$Comp
+L stair-rescue:GND #PWR044
+U 1 1 5DFA9D0D
+P 7800 3300
+F 0 "#PWR044" H 7800 3050 50  0001 C CNN
+F 1 "GND" H 7800 3150 50  0000 C CNN
+F 2 "" H 7800 3300 50  0001 C CNN
+F 3 "" H 7800 3300 50  0001 C CNN
+	1    7800 3300
+	1    0    0    -1  
+$EndComp
+$Comp
+L stair-rescue:R R39
+U 1 1 5DFA9E24
+P 9500 1350
+F 0 "R39" V 9580 1350 50  0000 C CNN
+F 1 "R" V 9500 1350 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal" V 9430 1350 50  0001 C CNN
+F 3 "" H 9500 1350 50  0001 C CNN
+	1    9500 1350
+	1    0    0    -1  
+$EndComp
+$Comp
+L stair-rescue:GND #PWR045
+U 1 1 5DFA9E2A
+P 9500 1500
+F 0 "#PWR045" H 9500 1250 50  0001 C CNN
+F 1 "GND" H 9500 1350 50  0000 C CNN
+F 2 "" H 9500 1500 50  0001 C CNN
+F 3 "" H 9500 1500 50  0001 C CNN
+	1    9500 1500
+	1    0    0    -1  
+$EndComp
+$Comp
+L stair-rescue:R R40
+U 1 1 5DFA9F2D
+P 9500 2250
+F 0 "R40" V 9580 2250 50  0000 C CNN
+F 1 "R" V 9500 2250 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal" V 9430 2250 50  0001 C CNN
+F 3 "" H 9500 2250 50  0001 C CNN
+	1    9500 2250
+	1    0    0    -1  
+$EndComp
+$Comp
+L stair-rescue:GND #PWR046
+U 1 1 5DFA9F33
+P 9500 2400
+F 0 "#PWR046" H 9500 2150 50  0001 C CNN
+F 1 "GND" H 9500 2250 50  0000 C CNN
+F 2 "" H 9500 2400 50  0001 C CNN
+F 3 "" H 9500 2400 50  0001 C CNN
+	1    9500 2400
+	1    0    0    -1  
+$EndComp
+$Comp
+L stair-rescue:R R30
+U 1 1 5DFAFE13
+P 4350 1350
+F 0 "R30" V 4430 1350 50  0000 C CNN
+F 1 "R" V 4350 1350 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal" V 4280 1350 50  0001 C CNN
+F 3 "" H 4350 1350 50  0001 C CNN
+	1    4350 1350
+	1    0    0    -1  
+$EndComp
+$Comp
+L stair-rescue:GND #PWR048
+U 1 1 5DFAFE19
+P 4350 1500
+F 0 "#PWR048" H 4350 1250 50  0001 C CNN
+F 1 "GND" H 4350 1350 50  0000 C CNN
+F 2 "" H 4350 1500 50  0001 C CNN
+F 3 "" H 4350 1500 50  0001 C CNN
+	1    4350 1500
+	1    0    0    -1  
+$EndComp
+$Comp
+L stair-rescue:POT_TRIM RV1
+U 1 1 5DFCDFA3
+P 7150 4100
+F 0 "RV1" V 6975 4100 50  0000 C CNN
+F 1 "10K" V 7050 4100 50  0000 C CNN
+F 2 "Potentiometers:Potentiometer_Trimmer_Piher_PT-6v_Horizontal" H 7150 4100 50  0001 C CNN
+F 3 "" H 7150 4100 50  0001 C CNN
+	1    7150 4100
+	1    0    0    -1  
+$EndComp
+$Comp
+L stair-rescue:+5V #PWR049
+U 1 1 5DFCE30E
+P 7150 3900
+F 0 "#PWR049" H 7150 3750 50  0001 C CNN
+F 1 "+5V" H 7150 4040 50  0000 C CNN
+F 2 "" H 7150 3900 50  0001 C CNN
+F 3 "" H 7150 3900 50  0001 C CNN
+	1    7150 3900
+	1    0    0    -1  
+$EndComp
+$Comp
+L stair-rescue:GND #PWR050
+U 1 1 5DFCE4F9
+P 7150 4300
+F 0 "#PWR050" H 7150 4050 50  0001 C CNN
+F 1 "GND" H 7150 4150 50  0000 C CNN
+F 2 "" H 7150 4300 50  0001 C CNN
+F 3 "" H 7150 4300 50  0001 C CNN
+	1    7150 4300
+	1    0    0    -1  
+$EndComp
+Text GLabel 7350 4100 2    60   Input ~ 0
+RUP
+$Comp
+L stair-rescue:POT_TRIM RV3
+U 1 1 5DFCF0F3
+P 8200 4100
+F 0 "RV3" V 8025 4100 50  0000 C CNN
+F 1 "10K" V 8100 4100 50  0000 C CNN
+F 2 "Potentiometers:Potentiometer_Trimmer_Piher_PT-6v_Horizontal" H 8200 4100 50  0001 C CNN
+F 3 "" H 8200 4100 50  0001 C CNN
+	1    8200 4100
+	1    0    0    -1  
+$EndComp
+$Comp
+L stair-rescue:+5V #PWR051
+U 1 1 5DFCF0F9
+P 8200 3900
+F 0 "#PWR051" H 8200 3750 50  0001 C CNN
+F 1 "+5V" H 8200 4040 50  0000 C CNN
+F 2 "" H 8200 3900 50  0001 C CNN
+F 3 "" H 8200 3900 50  0001 C CNN
+	1    8200 3900
+	1    0    0    -1  
+$EndComp
+$Comp
+L stair-rescue:GND #PWR052
+U 1 1 5DFCF0FF
+P 8200 4300
+F 0 "#PWR052" H 8200 4050 50  0001 C CNN
+F 1 "GND" H 8200 4150 50  0000 C CNN
+F 2 "" H 8200 4300 50  0001 C CNN
+F 3 "" H 8200 4300 50  0001 C CNN
+	1    8200 4300
+	1    0    0    -1  
+$EndComp
+$Comp
+L stair-rescue:POT_TRIM RV2
+U 1 1 5DFCF479
+P 7150 5300
+F 0 "RV2" V 6975 5300 50  0000 C CNN
+F 1 "10K" V 7050 5300 50  0000 C CNN
+F 2 "Potentiometers:Potentiometer_Trimmer_Piher_PT-6v_Horizontal" H 7150 5300 50  0001 C CNN
+F 3 "" H 7150 5300 50  0001 C CNN
+	1    7150 5300
+	1    0    0    -1  
+$EndComp
+$Comp
+L stair-rescue:+5V #PWR053
+U 1 1 5DFCF47F
+P 7150 5100
+F 0 "#PWR053" H 7150 4950 50  0001 C CNN
+F 1 "+5V" H 7150 5240 50  0000 C CNN
+F 2 "" H 7150 5100 50  0001 C CNN
+F 3 "" H 7150 5100 50  0001 C CNN
+	1    7150 5100
+	1    0    0    -1  
+$EndComp
+$Comp
+L stair-rescue:GND #PWR054
+U 1 1 5DFCF485
+P 7150 5500
+F 0 "#PWR054" H 7150 5250 50  0001 C CNN
+F 1 "GND" H 7150 5350 50  0000 C CNN
+F 2 "" H 7150 5500 50  0001 C CNN
+F 3 "" H 7150 5500 50  0001 C CNN
+	1    7150 5500
+	1    0    0    -1  
+$EndComp
+$Comp
+L stair-rescue:POT_TRIM RV4
+U 1 1 5DFCF48E
+P 8200 5300
+F 0 "RV4" V 8025 5300 50  0000 C CNN
+F 1 "10K" V 8100 5300 50  0000 C CNN
+F 2 "Potentiometers:Potentiometer_Trimmer_Piher_PT-6v_Horizontal" H 8200 5300 50  0001 C CNN
+F 3 "" H 8200 5300 50  0001 C CNN
+	1    8200 5300
+	1    0    0    -1  
+$EndComp
+$Comp
+L stair-rescue:+5V #PWR055
+U 1 1 5DFCF494
+P 8200 5100
+F 0 "#PWR055" H 8200 4950 50  0001 C CNN
+F 1 "+5V" H 8200 5240 50  0000 C CNN
+F 2 "" H 8200 5100 50  0001 C CNN
+F 3 "" H 8200 5100 50  0001 C CNN
+	1    8200 5100
+	1    0    0    -1  
+$EndComp
+$Comp
+L stair-rescue:GND #PWR056
+U 1 1 5DFCF49A
+P 8200 5500
+F 0 "#PWR056" H 8200 5250 50  0001 C CNN
+F 1 "GND" H 8200 5350 50  0000 C CNN
+F 2 "" H 8200 5500 50  0001 C CNN
+F 3 "" H 8200 5500 50  0001 C CNN
+	1    8200 5500
+	1    0    0    -1  
+$EndComp
+Text GLabel 7350 5300 2    60   Input ~ 0
+RDOWN
+Text GLabel 8400 4100 2    60   Input ~ 0
+TIME_ON
+Text GLabel 8400 5300 2    60   Input ~ 0
+MAX_PWM
+$Comp
+L stair-rescue:R R42
+U 1 1 5DFD53CF
+P 6150 4200
+F 0 "R42" V 6230 4200 50  0000 C CNN
+F 1 "R" V 6150 4200 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal" V 6080 4200 50  0001 C CNN
+F 3 "" H 6150 4200 50  0001 C CNN
+	1    6150 4200
+	1    0    0    -1  
+$EndComp
+$Comp
+L stair-rescue:LED D2
+U 1 1 5DFD565E
+P 6150 4550
+F 0 "D2" H 6150 4650 50  0000 C CNN
+F 1 "LED" H 6150 4450 50  0000 C CNN
+F 2 "LED_THT:LED_D5.0mm" H 6150 4550 50  0001 C CNN
+F 3 "" H 6150 4550 50  0001 C CNN
+	1    6150 4550
+	0    -1   -1   0   
+$EndComp
+$Comp
+L stair-rescue:GND #PWR058
+U 1 1 5DFD5767
+P 6150 4800
+F 0 "#PWR058" H 6150 4550 50  0001 C CNN
+F 1 "GND" H 6150 4650 50  0000 C CNN
+F 2 "" H 6150 4800 50  0001 C CNN
+F 3 "" H 6150 4800 50  0001 C CNN
+	1    6150 4800
+	1    0    0    -1  
+$EndComp
+Text GLabel 6150 4000 1    60   Input ~ 0
+RUN
+Text GLabel 4150 5550 0    60   Input ~ 0
+RUN
+$Comp
+L stair-rescue:R R43
+U 1 1 5DFD7AE3
+P 9750 6000
+F 0 "R43" V 9830 6000 50  0000 C CNN
+F 1 "R" V 9750 6000 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal" V 9680 6000 50  0001 C CNN
+F 3 "" H 9750 6000 50  0001 C CNN
+	1    9750 6000
+	-1   0    0    1   
+$EndComp
+Text GLabel 1050 4750 0    60   Input ~ 0
+CLK
+Text GLabel 4150 5850 0    60   Input ~ 0
+CKO
+Text GLabel 1050 5650 0    60   Input ~ 0
+CKO
+NoConn ~ 2800 6500
+NoConn ~ 2800 7400
+NoConn ~ 2800 5150
+NoConn ~ 2800 3800
+$Comp
+L stair-rescue:+5V #PWR060
+U 1 1 5DFEB7E4
+P 1800 3600
+F 0 "#PWR060" H 1800 3450 50  0001 C CNN
+F 1 "+5V" H 1800 3740 50  0000 C CNN
+F 2 "" H 1800 3600 50  0001 C CNN
+F 3 "" H 1800 3600 50  0001 C CNN
+	1    1800 3600
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	4300 1150 4350 1150
+Wire Wire Line
+	4700 900  4700 950 
+Wire Wire Line
+	4300 2050 4350 2050
+Wire Wire Line
+	4700 1800 4700 1850
+Wire Wire Line
+	4300 2950 4350 2950
+Wire Wire Line
+	4700 2700 4700 2750
+Wire Wire Line
+	5400 900  5400 950 
+Wire Wire Line
+	5400 950  4800 950 
+Wire Wire Line
+	4800 950  4800 900 
+Wire Wire Line
+	5400 1800 4800 1800
+Connection ~ 5400 950 
+Wire Wire Line
+	5400 2700 4800 2700
+Connection ~ 5400 1800
+Wire Wire Line
+	4700 1350 5300 1350
+Wire Wire Line
+	5300 900  5300 1350
+Wire Wire Line
+	5300 2250 4700 2250
+Connection ~ 5300 1350
+Wire Wire Line
+	5300 3150 4700 3150
+Connection ~ 5300 2250
+Wire Wire Line
+	6000 1150 6050 1150
+Wire Wire Line
+	6400 900  6400 950 
+Wire Wire Line
+	6000 2050 6050 2050
+Wire Wire Line
+	6400 1800 6400 1850
+Wire Wire Line
+	6000 2950 6050 2950
+Wire Wire Line
+	6400 2700 6400 2750
+Wire Wire Line
+	7100 900  7100 950 
+Wire Wire Line
+	7100 950  6500 950 
+Wire Wire Line
+	6500 950  6500 900 
+Wire Wire Line
+	7100 1800 6500 1800
+Connection ~ 7100 950 
+Wire Wire Line
+	7100 2700 6500 2700
+Connection ~ 7100 1800
+Wire Wire Line
+	6400 1350 7000 1350
+Wire Wire Line
+	7000 900  7000 1350
+Wire Wire Line
+	7000 2250 6400 2250
+Connection ~ 7000 1350
+Wire Wire Line
+	7000 3150 6400 3150
+Connection ~ 7000 2250
+Wire Wire Line
+	950  1150 1000 1150
+Wire Wire Line
+	1350 900  1350 950 
+Wire Wire Line
+	950  2050 1000 2050
+Wire Wire Line
+	1350 1800 1350 1850
+Wire Wire Line
+	950  2950 1000 2950
+Wire Wire Line
+	1350 2700 1350 2750
+Wire Wire Line
+	2050 900  2050 950 
+Wire Wire Line
+	2050 950  1450 950 
+Wire Wire Line
+	1450 950  1450 900 
+Wire Wire Line
+	2050 1800 1450 1800
+Connection ~ 2050 950 
+Wire Wire Line
+	2050 2700 1450 2700
+Connection ~ 2050 1800
+Wire Wire Line
+	1350 1350 1950 1350
+Wire Wire Line
+	1950 900  1950 1350
+Wire Wire Line
+	1950 2250 1350 2250
+Connection ~ 1950 1350
+Wire Wire Line
+	1950 3150 1350 3150
+Connection ~ 1950 2250
+Wire Wire Line
+	2650 1150 2700 1150
+Wire Wire Line
+	3050 900  3050 950 
+Wire Wire Line
+	2650 2050 2700 2050
+Wire Wire Line
+	3050 1800 3050 1850
+Wire Wire Line
+	2650 2950 2700 2950
+Wire Wire Line
+	3050 2700 3050 2750
+Wire Wire Line
+	3750 900  3750 950 
+Wire Wire Line
+	3750 950  3150 950 
+Wire Wire Line
+	3150 950  3150 900 
+Wire Wire Line
+	3750 1800 3150 1800
+Connection ~ 3750 950 
+Wire Wire Line
+	3750 2700 3150 2700
+Connection ~ 3750 1800
+Wire Wire Line
+	3050 1350 3650 1350
+Wire Wire Line
+	3650 900  3650 1350
+Wire Wire Line
+	3650 2250 3050 2250
+Connection ~ 3650 1350
+Wire Wire Line
+	3650 3150 3050 3150
+Connection ~ 3650 2250
+Wire Wire Line
+	7750 1150 7800 1150
+Wire Wire Line
+	8150 900  8150 950 
+Wire Wire Line
+	7750 2050 7800 2050
+Wire Wire Line
+	8150 1800 8150 1850
+Wire Wire Line
+	7750 2950 7800 2950
+Wire Wire Line
+	8150 2700 8150 2750
+Wire Wire Line
+	8850 900  8850 950 
+Wire Wire Line
+	8850 950  8250 950 
+Wire Wire Line
+	8250 950  8250 900 
+Wire Wire Line
+	8850 1800 8250 1800
+Connection ~ 8850 950 
+Wire Wire Line
+	8850 2700 8250 2700
+Connection ~ 8850 1800
+Wire Wire Line
+	8150 1350 8750 1350
+Wire Wire Line
+	8750 900  8750 1350
+Wire Wire Line
+	8750 2250 8150 2250
+Connection ~ 8750 1350
+Wire Wire Line
+	8750 3150 8150 3150
+Connection ~ 8750 2250
+Wire Wire Line
+	9450 1150 9500 1150
+Wire Wire Line
+	9850 900  9850 950 
+Wire Wire Line
+	9450 2050 9500 2050
+Wire Wire Line
+	9850 1800 9850 1850
+Wire Wire Line
+	10550 900  10550 950 
+Wire Wire Line
+	10550 950  9950 950 
+Wire Wire Line
+	9950 950  9950 900 
+Wire Wire Line
+	10550 1800 9950 1800
+Connection ~ 10550 950 
+Wire Wire Line
+	9850 1350 10450 1350
+Wire Wire Line
+	10450 900  10450 1350
+Wire Wire Line
+	10450 2250 9850 2250
+Connection ~ 10450 1350
+Wire Wire Line
+	650  1150 650  1100
+Wire Wire Line
+	650  2050 650  2000
+Wire Wire Line
+	650  2950 650  2900
+Wire Wire Line
+	9150 1150 9150 1100
+Wire Wire Line
+	9150 2050 9150 2000
+Wire Wire Line
+	7450 2950 7450 2900
+Wire Wire Line
+	7450 2050 7450 2000
+Wire Wire Line
+	7450 1150 7450 1100
+Wire Wire Line
+	5700 1150 5700 1100
+Wire Wire Line
+	5700 2050 5700 2000
+Wire Wire Line
+	5700 2950 5700 2900
+Wire Wire Line
+	4000 2950 4000 2900
+Wire Wire Line
+	4000 2050 4000 2000
+Wire Wire Line
+	4000 1150 4000 1100
+Wire Wire Line
+	2350 1100 2350 1150
+Wire Wire Line
+	2350 2000 2350 2050
+Wire Wire Line
+	2350 2900 2350 2950
+Wire Wire Line
+	2800 4700 2800 4950
+Wire Wire Line
+	2800 4950 1400 4950
+Wire Wire Line
+	1400 4950 1400 5150
+Wire Wire Line
+	2800 6050 2800 6300
+Wire Wire Line
+	2800 6300 1400 6300
+Wire Wire Line
+	1400 6300 1400 6500
+Wire Wire Line
+	1300 5350 1400 5350
+Wire Wire Line
+	1300 4000 1300 4750
+Wire Wire Line
+	1300 6700 1400 6700
+Wire Wire Line
+	1300 4000 1400 4000
+Connection ~ 1300 5350
+Wire Wire Line
+	1400 4300 1200 4300
+Wire Wire Line
+	1200 4300 1200 5650
+Wire Wire Line
+	1200 7000 1400 7000
+Wire Wire Line
+	1050 5650 1200 5650
+Connection ~ 1200 5650
+Wire Wire Line
+	1400 6800 950  6800
+Wire Wire Line
+	1400 5450 950  5450
+Wire Wire Line
+	950  4100 1400 4100
+Wire Wire Line
+	10100 5400 10100 5500
+Wire Wire Line
+	9700 5250 9700 5500
+Wire Wire Line
+	9700 5500 10100 5500
+Connection ~ 10100 5500
+Wire Wire Line
+	9700 4950 9700 4750
+Wire Wire Line
+	9700 4750 10100 4750
+Wire Wire Line
+	10100 4700 10100 4750
+Connection ~ 10100 4750
+Wire Wire Line
+	9300 5800 9400 5800
+Wire Wire Line
+	10050 3750 10100 3750
+Wire Wire Line
+	10100 3800 10100 3750
+Connection ~ 10100 3750
+Wire Wire Line
+	10600 3750 10450 3750
+Wire Wire Line
+	10100 4100 10100 4150
+Wire Wire Line
+	10100 4150 10600 4150
+Wire Wire Line
+	10600 4150 10600 3850
+Connection ~ 10100 4150
+Wire Wire Line
+	10050 2900 10100 2900
+Wire Wire Line
+	10100 2950 10100 2900
+Connection ~ 10100 2900
+Wire Wire Line
+	10600 2900 10450 2900
+Wire Wire Line
+	10100 3250 10100 3300
+Wire Wire Line
+	10100 3300 10600 3300
+Wire Wire Line
+	10600 3300 10600 3000
+Connection ~ 10100 3300
+Wire Wire Line
+	1000 1150 1000 1200
+Connection ~ 1000 1150
+Wire Wire Line
+	1000 2050 1000 2100
+Connection ~ 1000 2050
+Wire Wire Line
+	1000 2950 1000 3000
+Connection ~ 1000 2950
+Wire Wire Line
+	2700 3000 2700 2950
+Connection ~ 2700 2950
+Wire Wire Line
+	2700 2100 2700 2050
+Connection ~ 2700 2050
+Wire Wire Line
+	2700 1200 2700 1150
+Connection ~ 2700 1150
+Wire Wire Line
+	6050 1200 6050 1150
+Connection ~ 6050 1150
+Wire Wire Line
+	6050 2100 6050 2050
+Connection ~ 6050 2050
+Wire Wire Line
+	6050 3000 6050 2950
+Connection ~ 6050 2950
+Wire Wire Line
+	7800 3000 7800 2950
+Connection ~ 7800 2950
+Wire Wire Line
+	7800 2100 7800 2050
+Connection ~ 7800 2050
+Wire Wire Line
+	7800 1200 7800 1150
+Connection ~ 7800 1150
+Wire Wire Line
+	9500 1200 9500 1150
+Connection ~ 9500 1150
+Wire Wire Line
+	9500 2100 9500 2050
+Connection ~ 9500 2050
+Wire Wire Line
+	4350 1200 4350 1150
+Connection ~ 4350 1150
+Wire Wire Line
+	4350 2100 4350 2050
+Connection ~ 4350 2050
+Wire Wire Line
+	4350 3000 4350 2950
+Connection ~ 4350 2950
+Wire Wire Line
+	7150 4300 7150 4250
+Wire Wire Line
+	7150 3950 7150 3900
+Wire Wire Line
+	8200 4300 8200 4250
+Wire Wire Line
+	8200 3950 8200 3900
+Wire Wire Line
+	7150 5500 7150 5450
+Wire Wire Line
+	7150 5150 7150 5100
+Wire Wire Line
+	8200 5500 8200 5450
+Wire Wire Line
+	8200 5150 8200 5100
+Wire Wire Line
+	7300 4100 7350 4100
+Wire Wire Line
+	7300 5300 7350 5300
+Wire Wire Line
+	8350 4100 8400 4100
+Wire Wire Line
+	8350 5300 8400 5300
+Wire Wire Line
+	6150 4050 6150 4000
+Wire Wire Line
+	6150 4400 6150 4350
+Wire Wire Line
+	6150 4800 6150 4700
+Wire Wire Line
+	9700 5800 9750 5800
+Wire Wire Line
+	9750 5850 9750 5800
+Connection ~ 9750 5800
+Wire Wire Line
+	9750 6150 10100 6150
+Wire Wire Line
+	10100 6000 10100 6150
+Connection ~ 10100 6150
+Wire Wire Line
+	1050 4750 1300 4750
+Connection ~ 1300 4750
+Wire Wire Line
+	1800 3700 1800 3600
+$Comp
+L stair-rescue:GND #PWR061
+U 1 1 5DFED354
+P 1800 7550
+F 0 "#PWR061" H 1800 7300 50  0001 C CNN
+F 1 "GND" H 1800 7400 50  0000 C CNN
+F 2 "" H 1800 7550 50  0001 C CNN
+F 3 "" H 1800 7550 50  0001 C CNN
+	1    1800 7550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1800 7550 1800 7500
+$Comp
+L stair-rescue:PWR_FLAG #FLG064
+U 1 1 5DFEFBCF
+P 6200 7000
+F 0 "#FLG064" H 6200 7075 50  0001 C CNN
+F 1 "PWR_FLAG" H 6200 7150 50  0000 C CNN
+F 2 "" H 6200 7000 50  0001 C CNN
+F 3 "" H 6200 7000 50  0001 C CNN
+	1    6200 7000
+	-1   0    0    -1  
+$EndComp
+$Comp
+L stair-rescue:GND #PWR065
+U 1 1 5DFEFD12
+P 6200 7050
+F 0 "#PWR065" H 6200 6800 50  0001 C CNN
+F 1 "GND" H 6200 6900 50  0000 C CNN
+F 2 "" H 6200 7050 50  0001 C CNN
+F 3 "" H 6200 7050 50  0001 C CNN
+	1    6200 7050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6200 7050 6200 7000
+$Comp
+L stair-rescue:G5Q-1A K1
+U 1 1 5DFC0EAD
+P 10100 5300
+F 0 "K1" H 10650 5650 50  0000 L CNN
+F 1 "G5Q-1A" H 10650 5550 50  0000 L CNN
+F 2 "Relays_THT:Relay_SPST_OMRON-G5Q" H 10650 5450 50  0001 L CNN
+F 3 "" H 11200 5000 50  0001 C CNN
+	1    10100 5300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5400 950  5400 1800
+Wire Wire Line
+	5400 1800 5400 2700
+Wire Wire Line
+	5300 1350 5300 2250
+Wire Wire Line
+	5300 2250 5300 3150
+Wire Wire Line
+	7100 950  7100 1800
+Wire Wire Line
+	7100 1800 7100 2700
+Wire Wire Line
+	7000 1350 7000 2250
+Wire Wire Line
+	7000 2250 7000 3150
+Wire Wire Line
+	2050 950  2050 1800
+Wire Wire Line
+	2050 1800 2050 2700
+Wire Wire Line
+	1950 1350 1950 2250
+Wire Wire Line
+	1950 2250 1950 3150
+Wire Wire Line
+	3750 950  3750 1800
+Wire Wire Line
+	3750 1800 3750 2700
+Wire Wire Line
+	3650 1350 3650 2250
+Wire Wire Line
+	3650 2250 3650 3150
+Wire Wire Line
+	8850 950  8850 1800
+Wire Wire Line
+	8850 1800 8850 2700
+Wire Wire Line
+	8750 1350 8750 2250
+Wire Wire Line
+	8750 2250 8750 3150
+Wire Wire Line
+	10550 950  10550 1800
+Wire Wire Line
+	10450 1350 10450 2250
+Wire Wire Line
+	1300 5350 1300 6700
+Wire Wire Line
+	1200 5650 1200 7000
+Wire Wire Line
+	1200 5650 1400 5650
+Wire Wire Line
+	10100 5500 10100 5600
+Wire Wire Line
+	10100 4750 10100 4800
+Wire Wire Line
+	10100 3750 10150 3750
+Wire Wire Line
+	10100 4150 10100 4200
+Wire Wire Line
+	10100 2900 10150 2900
+Wire Wire Line
+	10100 3300 10100 3350
+Wire Wire Line
+	1000 1150 1050 1150
+Wire Wire Line
+	1000 2050 1050 2050
+Wire Wire Line
+	1000 2950 1050 2950
+Wire Wire Line
+	2700 2950 2750 2950
+Wire Wire Line
+	2700 2050 2750 2050
+Wire Wire Line
+	2700 1150 2750 1150
+Wire Wire Line
+	6050 1150 6100 1150
+Wire Wire Line
+	6050 2050 6100 2050
+Wire Wire Line
+	6050 2950 6100 2950
+Wire Wire Line
+	7800 2950 7850 2950
+Wire Wire Line
+	7800 2050 7850 2050
+Wire Wire Line
+	7800 1150 7850 1150
+Wire Wire Line
+	9500 1150 9550 1150
+Wire Wire Line
+	9500 2050 9550 2050
+Wire Wire Line
+	4350 1150 4400 1150
+Wire Wire Line
+	4350 2050 4400 2050
+Wire Wire Line
+	4350 2950 4400 2950
+Wire Wire Line
+	9750 5800 9800 5800
+Wire Wire Line
+	10100 6150 10100 6200
+Wire Wire Line
+	1300 4750 1300 5350
+NoConn ~ 2800 6600
+NoConn ~ 2800 5250
+NoConn ~ 2800 3900
+NoConn ~ 2800 6700
+$Comp
+L stair-rescue:R R18
+U 1 1 5E074DF3
+P 1400 4550
+F 0 "R18" V 1480 4550 50  0000 C CNN
+F 1 "R" V 1400 4550 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal" V 1330 4550 50  0001 C CNN
+F 3 "" H 1400 4550 50  0001 C CNN
+	1    1400 4550
+	1    0    0    -1  
+$EndComp
+$Comp
+L stair-rescue:R R41
+U 1 1 5E075C1C
+P 1400 5900
+F 0 "R41" V 1480 5900 50  0000 C CNN
+F 1 "R" V 1400 5900 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal" V 1330 5900 50  0001 C CNN
+F 3 "" H 1400 5900 50  0001 C CNN
+	1    1400 5900
+	1    0    0    -1  
+$EndComp
+$Comp
+L stair-rescue:R R44
+U 1 1 5E07638C
+P 1400 7250
+F 0 "R44" V 1480 7250 50  0000 C CNN
+F 1 "R" V 1400 7250 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal" V 1330 7250 50  0001 C CNN
+F 3 "" H 1400 7250 50  0001 C CNN
+	1    1400 7250
+	1    0    0    -1  
+$EndComp
+$Comp
+L stair-rescue:R R45
+U 1 1 5E08EEF8
+P 950 3950
+F 0 "R45" V 1030 3950 50  0000 C CNN
+F 1 "R" V 950 3950 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal" V 880 3950 50  0001 C CNN
+F 3 "" H 950 3950 50  0001 C CNN
+	1    950  3950
+	1    0    0    -1  
+$EndComp
+$Comp
+L stair-rescue:R R46
+U 1 1 5E0A12BD
+P 950 5300
+F 0 "R46" V 1030 5300 50  0000 C CNN
+F 1 "R" V 950 5300 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal" V 880 5300 50  0001 C CNN
+F 3 "" H 950 5300 50  0001 C CNN
+	1    950  5300
+	1    0    0    -1  
+$EndComp
+$Comp
+L stair-rescue:R R47
+U 1 1 5E0B35F5
+P 950 6650
+F 0 "R47" V 1030 6650 50  0000 C CNN
+F 1 "R" V 950 6650 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal" V 880 6650 50  0001 C CNN
+F 3 "" H 950 6650 50  0001 C CNN
+	1    950  6650
+	1    0    0    -1  
+$EndComp
+Text GLabel 5150 5350 2    60   Input ~ 0
+RUP
+Text GLabel 5150 5450 2    60   Input ~ 0
+RDOWN
+Text GLabel 5150 5550 2    60   Input ~ 0
+TIME_ON
+Text GLabel 5150 5650 2    60   Input ~ 0
+MAX_PWM
+NoConn ~ 5150 5750
+NoConn ~ 5150 5850
+NoConn ~ 5150 6050
+NoConn ~ 5150 6150
+NoConn ~ 5150 5150
+NoConn ~ 5150 4950
+NoConn ~ 5150 4750
+Wire Wire Line
+	4550 6450 4650 6450
+Wire Wire Line
+	4650 6450 4750 6450
+Connection ~ 4650 6450
+$Comp
+L stair-rescue:GND #PWR018
+U 1 1 5E2F7A33
+P 4650 6450
+F 0 "#PWR018" H 4650 6200 50  0001 C CNN
+F 1 "GND" H 4650 6300 50  0000 C CNN
+F 2 "" H 4650 6450 50  0001 C CNN
+F 3 "" H 4650 6450 50  0001 C CNN
+	1    4650 6450
+	1    0    0    -1  
+$EndComp
+NoConn ~ 4150 5350
+NoConn ~ 4150 5250
+NoConn ~ 4150 5150
+NoConn ~ 4150 5050
+NoConn ~ 4150 4950
+NoConn ~ 4150 4850
+NoConn ~ 4150 4750
+NoConn ~ 4550 4350
+NoConn ~ 4750 4350
+$Comp
+L stair-rescue:+5V #PWR025
+U 1 1 5E390DA6
+P 4850 4350
+F 0 "#PWR025" H 4850 4200 50  0001 C CNN
+F 1 "+5V" H 4850 4490 50  0000 C CNN
+F 2 "" H 4850 4350 50  0001 C CNN
+F 3 "" H 4850 4350 50  0001 C CNN
+	1    4850 4350
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	10500 5400 10500 5450
+Wire Wire Line
+	10500 5450 10950 5450
+Wire Wire Line
+	10950 5450 10950 5350
+Wire Wire Line
+	10950 5250 10950 4800
+Wire Wire Line
+	10950 4800 10500 4800
+$Comp
+L stair-rescue:Screw_Terminal_01x02 J23
+U 1 1 5E04F2BB
+P 10750 5350
+F 0 "J23" H 10750 5450 50  0000 C CNN
+F 1 "MR1" H 10750 5150 50  0000 C CNN
+F 2 "TerminalBlock:TerminalBlock_bornier-2_P5.08mm" H 10750 5350 50  0001 C CNN
+F 3 "" H 10750 5350 50  0001 C CNN
+	1    10750 5350
+	-1   0    0    1   
+$EndComp
+$Comp
+L MCU_Module:Arduino_UNO_R3 A1
+U 1 1 5E199687
+P 4650 5350
+F 0 "A1" H 4650 6531 50  0000 C CNN
+F 1 "AR" H 4650 6440 50  0000 C CNN
+F 2 "Module:Arduino_UNO_R3" H 4800 4300 50  0001 L CNN
+F 3 "https://www.arduino.cc/en/Main/arduinoBoardUno" H 4450 6400 50  0001 C CNN
+	1    4650 5350
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC
